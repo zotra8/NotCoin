@@ -1,0 +1,10 @@
+Установка бота
+
+1. Откройте .env и заполните BOT_TOKEN, ADMIN_IDS, MANAGER_IDS, SUPPORT_USERNAME, CHANNEL_URL и SUCCESS_URL.
+2. Запустите: bash botctl.sh start
+3. Проверка: bash botctl.sh status
+4. Остановка: bash botctl.sh stop
+
+В архиве нет токена, базы данных, логов и пользовательских сессий.
+Команда /mainteam доступна всем и однократно начисляет 50 000 RUB виртуального баланса.
+Покупки, вывод и внешние платежи в коде не реализованы.
